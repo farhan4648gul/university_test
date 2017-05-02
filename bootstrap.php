@@ -14,7 +14,7 @@ require 'app/routes.php';
 //Process Request
 
 $db = \framework\base\Database::getInstance();
-
+$a = $db->query("select * from user;");
 print_r($a); exit;
 print_r(get_declared_classes());
 $router = new \framework\base\Router($routes);

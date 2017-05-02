@@ -455,4 +455,5 @@ return array(
     'framework\\base\\Database' => $baseDir . '/framework/database/Database.php',
     'framework\\base\\Model' => $baseDir . '/framework/base/Model.php',
     'framework\\base\\Router' => $baseDir . '/framework/base/Router.php',
+    'framework\\base\\View' => $baseDir . '/framework/base/View.php',
 );

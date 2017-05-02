@@ -42,4 +42,3 @@ class Controller
 
     }
 }
-use Doctrine\Tests\Common\Cache\BaseFileCacheTest;

@@ -543,6 +543,7 @@ class ComposerStaticInitbbc174e0f14bb2030960477d7c3b1109
         'framework\\base\\Database' => __DIR__ . '/../..' . '/framework/database/Database.php',
         'framework\\base\\Model' => __DIR__ . '/../..' . '/framework/base/Model.php',
         'framework\\base\\Router' => __DIR__ . '/../..' . '/framework/base/Router.php',
+        'framework\\base\\View' => __DIR__ . '/../..' . '/framework/base/View.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
