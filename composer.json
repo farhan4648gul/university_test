@@ -1,0 +1,33 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "doctrine/dbal": "v2.5.12"
+  },
+
+  "autoload": {
+      "files": [
+        "app/routes.php"
+      ],
+      "psr-4": {
+
+      },
+      "classmap": [
+        "framework/base",
+        "framework/database",
+        "app"
+      ]
+
+  },
+  "require-dev": {
+
+  }
+}
